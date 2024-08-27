@@ -2002,7 +2002,7 @@ color-mix(in srgb, var(--background-color), transparent 50%);
 
 
 
-.top-banner .col-6 {
+.top-banner .col-lg-6 {
   justify-content: center;
   display: flex;
   margin-left: 26px;
@@ -2010,14 +2010,14 @@ color-mix(in srgb, var(--background-color), transparent 50%);
   font-family: var(--font-family-manrope);
 }
 
-.top-banner .col-2 {
+.top-banner .col-lg-2 {
   justify-content: right;
   display: flex;
   margin-left: 42px;
   text-align: end;
 }
 
-.top-banner .col-2 img {
+.top-banner .col-lg-2 img {
   height: 17px;
 }
 
@@ -2152,7 +2152,15 @@ color-mix(in srgb, var(--background-color), transparent 50%);
 margin-top:0px
 }
 @media only screen and (min-width: 0px) and (max-width: 700px) {
-
+  .top-banner .col-lg-6 {
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 700;
+    font-family: var(--font-family-manrope);
+}
   .for-desktop .col-6 {
     font-size: 12px;
 
