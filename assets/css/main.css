@@ -2190,7 +2190,7 @@ margin-top:0px
   }
 
   .top-banner {
-    background-image: url(/assets/img/banner/top-background-diamonds.png);
+   background-image: url("../img/banner/dimonds.jpg");
     background-repeat: no-repeat;
     justify-content: center;
     background-size: auto;
