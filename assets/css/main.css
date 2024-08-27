@@ -2028,7 +2028,9 @@ color-mix(in srgb, var(--background-color), transparent 50%);
 
 
 .top-banner {
-  background-image: url(../assets/img/banner/dimonds.jpg);
+
+
+  background-image: url("../assets/img/banner/dimonds.jpg");
   background-repeat: no-repeat;
   justify-content: center;
   background-size: cover;
