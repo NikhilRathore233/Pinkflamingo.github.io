@@ -2075,9 +2075,10 @@ color-mix(in srgb, var(--background-color), transparent 50%);
 }
 
 .website-logo {
-  width: 178.79px;
-  height: 44.92px;
-  object-fit: cover;
+  width: 176.79px;
+  height: 47.92px;
+  object-fit: contain;
+
 
 }
 
